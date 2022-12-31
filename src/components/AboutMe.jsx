@@ -6,12 +6,12 @@ const AboutMe = () => {
     >
       <div id='my_image' className='relative '>
         <img
-          src='assets/MyImg.png'
+          src='assets/myImg.png'
           className='overflow-hidden w-[10rem]  sm:w-[60rem]  dark:hidden flex mx-auto '
           alt=''
         />
         <img
-          src='assets/MyImg-dark.png'
+          src='assets/myImg-dark.png'
           className='overflow-hidden w-[10rem] mx-auto hidden sm:w-[60rem]  dark:block  justify-self-between '
           alt=''
         />
