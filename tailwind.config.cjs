@@ -12,6 +12,7 @@ module.exports = {
       sectionDark: 'rgba(172, 179, 202, 0.06)',
       muted: '#acb3ca',
       gray: '#f3f4f6',
+      white: '#ffffff',
     },
     fontFamily: {
       sans: ['Inter', 'sans-serif'],
@@ -35,10 +36,20 @@ module.exports = {
           '0%': { opacity: 0 },
           '50%': { opacity: 100 },
         },
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+        marquee2: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0%)' },
+        },
       },
       animation: {
         wiggle: 'wiggle 1s ease-in-out',
         blink: 'blink 1.5s linear infinite',
+        marquee: 'marquee 35s linear infinite',
+        marquee2: 'marquee2 35s linear infinite',
       },
     },
   },

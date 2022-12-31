@@ -1,6 +1,9 @@
 const AboutMe = () => {
   return (
-    <section className=' overflow-y-hidden snap-start md:h-screen md:w-screen py-14 md:px-[5.5rem] sm:flex items-center   bg-sectionLight dark:bg-sectionDark'>
+    <section
+      id='about'
+      className='select-none overflow-y-hidden snap-start md:h-screen md:w-screen py-14 md:px-[5.5rem] sm:flex items-center   bg-sectionLight dark:bg-sectionDark'
+    >
       <div id='my_image' className='relative '>
         <img
           src='/assets/MyImg.png'

@@ -8,7 +8,7 @@ import Switcher from './Switcher';
 const Navbar = () => {
   let Links = [
     { name: 'Home', link: '/' },
-    { name: 'About', link: '/' },
+    { name: 'About', link: '#about' },
     { name: 'Work', link: '/' },
     { name: 'Contact Me', link: '/' },
   ];
@@ -54,7 +54,7 @@ const Navbar = () => {
                 <li key={link.name}>
                   <a
                     href={link.link}
-                    class='block py-2 pl-3 z-[50] pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white'
+                    class='block py-2 pl-3 z-[50] pr-4 text-blue-ac2 bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-muted'
                     aria-current='page'
                   >
                     {link.name}

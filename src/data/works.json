@@ -1,0 +1,44 @@
+[
+  {
+    "title": "SLIIT Mozila Club Website",
+    "desc": "I was privileged with the opportunity to build the website for SLIIT Mozilla Club. The website provides the function to dynamically update blogs and events which are written and organized by the club members. It also has the function of adding new members to the club.",
+    "image": "assets/project-thumbnails/Mozilla.png",
+    "link": "https://github.com/danuja01/Sliit-Mozilla-Web-Site",
+    "tags": ["Node.js", "Express", "EJS", "Bootstrap"]
+  },
+  {
+    "title": "Enterprise Resource Planning System",
+    "desc": "Created a system streamlines and automates student attendance tracking and enrollment management at Sariputta National College. Faculty can take attendance electronically, while students can easily search and register for courses online. This system improves efficiency, accuracy, and convenience for both students and staff.",
+    "image": "assets/project-thumbnails/ERPS.png",
+    "link": "https://github.com/SLIITITP/y2_s2_we_it_01-itp_we_b01_03",
+    "tags": ["React.js", "Node.js", "Express", "Mongodb"]
+  },
+  {
+    "title": "Mobile App for Travelers - Android",
+    "desc": "My part of the app includes a medical ID feature for storing important health info, a medication tracker, and a BMI calculator. Medical ID helps in emergencies, medication tracker helps keep track of prescriptions, and BMI calculator helps track fitness goals. These features help users manage their health and wellness while traveling.",
+    "image": "assets/project-thumbnails/MAD-APP.jpg",
+    "link": "https://github.com/danuja01/Tourist_Managment_system-MAD_Project",
+    "tags": ["Android", "Jetpack", "Java", "Firebase"]
+  },
+  {
+    "title": "Online Marketplace - Frontend",
+    "desc": "This is a real world project that i got a chance to create a online marketplace website boasts a visually appealing and intuitive frontend design. The layout is easy to navigate, with clear categories and search functionality to help users find the products they're looking for. The website also features attractive product listings and detailed product pages to help users make informed purchasing decisions. Overall, my aims to provide a seamless and enjoyable shopping experience for our users.",
+    "image": "assets/project-thumbnails/AddWeb.png",
+    "link": "https://danuja01.github.io/AddWeb/",
+    "tags": ["HTML", "CSS", "Bootstrap", "JavaScript"]
+  },
+  {
+    "title": "MovieScope-Movie Search Engine",
+    "desc": "website lets users search for movies and access information such as cast, plot, and trailer. We use a movie API to provide accurate and up-to-date data. Our website is a convenient and easy-to-use resource for movie enthusiasts and casual viewers alike.",
+    "image": "assets/project-thumbnails/Movie-Scope.gif",
+    "link": "https://github.com/danuja01/Movie-Scope",
+    "tags": ["Node.js", "Express", "EJS", "Bootstrap"]
+  },
+  {
+    "title": "Railway Reservation System",
+    "desc": "created railway reservation system lets you easily search and book train travel with the Sri Lankan Railway. You can view real-time availability and make reservations in a few clicks. You can also manage your bookings and make changes as needed. Our system aims to enhance your travel experience with the Sri Lankan Railway.",
+    "image": "assets/project-thumbnails/RailwayRes.png",
+    "link": "https://github.com/danuja01/RailwayReservation",
+    "tags": ["Java", "Servlet", "JDBC", "MySQL"]
+  }
+]

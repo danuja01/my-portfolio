@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className='md:h-screen  md:w-screen snap-start relative'>
       <Navbar />
-      <div className='hidden md:block'>
+      <div className='hidden md:block absolute top-0 right-0'>
         <Gradient />
       </div>
       <section
