@@ -1,10 +1,9 @@
 import AboutMe from '../components/AboutMe';
 import Gradient from '../components/Gradient';
 import Header from '../components/Header';
-
-import { useEffect, useState } from 'react';
 import Technologies from '../components/Technologies';
 import Projects from '../components/Projects';
+import Contact from '../components/Contact';
 
 const LandingPage = () => {
   return (
@@ -17,6 +16,7 @@ const LandingPage = () => {
         <AboutMe />
         <Technologies />
         <Projects />
+        <Contact />
       </div>
     </>
   );

@@ -6,8 +6,11 @@ const Card = ({ works }) => {
       </div>
 
       <div id='tags'>
-        {works.tags.map((tag) => (
-          <span className='text-[10px] hover:opacity-70 text-white bg-muted  dark:bg-blue-ac2 rounded-sm px-2 py-1 mr-2 '>
+        {works.tags.map((tag, index) => (
+          <span
+            key={index}
+            className='text-[10px] hover:opacity-70 text-white bg-muted  dark:bg-blue-ac2 rounded-sm px-2 py-1 mr-2 '
+          >
             {tag}
           </span>
         ))}

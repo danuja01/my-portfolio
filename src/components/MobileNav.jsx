@@ -1,4 +1,4 @@
-const MobileNav = ({ links, open }) => {
+const MobileNav = ({ links, open, handleOpen }) => {
   return (
     <nav
       className={` mx-3 rounded-sm inset-x-0 py-4 text-center bg-blue-ac1 dark:bg-blue-ac1 text-gray absolute z-[50] md:hidden   ${
@@ -11,6 +11,9 @@ const MobileNav = ({ links, open }) => {
             <a
               href={link.link}
               className='flex p-2 z-50 text-gray-800 justify-self-between hover:text-gray-400 w-96 duration-500 hover:bg-blue-ac2 focus:bg-blue-ac2'
+              onClick={() => {
+                handleOpen();
+              }}
             >
               {link.name}
             </a>
