@@ -1,59 +1,59 @@
 [
   {
-    "link": "/assets/logos/React-icon.svg.png",
+    "link": "assets/logos/React-icon.svg.png",
     "dSize": "107.68px",
     "mSize": "58.21px"
   },
   {
-    "link": "/assets/logos/angular-icon-1-logo-png-transparent.png",
+    "link": "assets/logos/angular-icon-1-logo-png-transparent.png",
     "dSize": "87.98px",
     "mSize": "47.56px"
   },
-  { "link": "/assets/logos/node.png", "dSize": "83.05px", "mSize": "44.89px" },
+  { "link": "assets/logos/node.png", "dSize": "83.05px", "mSize": "44.89px" },
   {
-    "link": "/assets/logos/JavaScript-logo.png",
+    "link": "assets/logos/JavaScript-logo.png",
     "dSize": "83.75px",
     "mSize": "50.27px",
     "rounded": true
   },
   {
-    "link": "/assets/logos/Typescript_logo_2020.svg.png",
+    "link": "assets/logos/Typescript_logo_2020.svg.png",
     "dSize": "83.75px",
     "mSize": "50.27px",
     "rounded": true
   },
   {
-    "link": "/assets/logos/python3.png",
+    "link": "assets/logos/python3.png",
     "dSize": "87.27px",
     "mSize": "50.27px"
   },
   {
-    "link": "/assets/logos/java.png",
+    "link": "assets/logos/java.png",
     "dSize": "102.05px",
     "mSize": "50.05px"
   },
   {
-    "link": "/assets/logos/unnamed.png",
+    "link": "assets/logos/unnamed.png",
     "dSize": "114.72px",
     "mSize": "50.72px"
   },
   {
-    "link": "/assets/logos/firebase.png",
+    "link": "assets/logos/firebase.png",
     "dSize": "87.98px",
     "mSize": "50.98px"
   },
   {
-    "link": "/assets/logos/mongo.png",
+    "link": "assets/logos/mongo.png",
     "dSize": "109.8px",
     "mSize": "50.8px"
   },
   {
-    "link": "/assets/logos/figma-1-logo-png-transparent.png",
+    "link": "assets/logos/figma-1-logo-png-transparent.png",
     "dSize": "64.05px",
     "mSize": "34.05px"
   },
   {
-    "link": "/assets/logos/Git-Icon-1788C.png",
+    "link": "assets/logos/Git-Icon-1788C.png",
     "dSize": "99.94px",
     "mSize": "49.94px"
   }

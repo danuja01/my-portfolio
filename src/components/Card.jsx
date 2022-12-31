@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-
 const Card = ({ works }) => {
   return (
     <div className='bg-blue-ac2 relative rounded-[3px] inline-block mx-4 snap-center center-div mb-4 w-[20rem] h-[28rem] p-5 dark:bg-muted'>

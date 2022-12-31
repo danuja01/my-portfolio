@@ -31,12 +31,12 @@ const Navbar = () => {
         <div className='flex items-center col-span-4 gap-10'>
           <a href='/' class='flex items-center'>
             <img
-              src='./assets/DANUJA.svg'
+              src='assets/DANUJA.svg'
               class='md:h-14 mr-1 md:mr-3 h-9 dark:hidden'
               alt='Danuja Logo'
             />
             <img
-              src='./assets/DANUJA-Dark.svg'
+              src='assets/DANUJA-Dark.svg'
               class='md:h-14 mr-1 md:mr-3 h-9 hidden dark:block'
               alt='Danuja Logo'
             />
