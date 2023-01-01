@@ -8,5 +8,5 @@ export default defineConfig({
     jsxFactory: 'h',
     jsxFragment: 'Fragment',
   },
-  base: '/my-portfolio/',
+  base: '/',
 });

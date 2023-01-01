@@ -9,9 +9,9 @@ const Projects = () => {
     >
       <div className='text-center md:leading-snug mb-10 md:mb-0'>
         <h1 className='text-[24px] md:text-[69.46px]  font-bold text-blue-ac2 dark:text-muted'>
-          I deveolped these!
+          I developed these!
         </h1>
-        <p className='text-muted dark:text-blue-ac1 text-[10px] md:text-[16.5px] opacity-75'>
+        <p className='text-[#6e6a836d] dark:text-[#4986f9] dark:opacity-50 text-[10px] md:text-[16.5px] '>
           React.js l Node.js l Express l Angular l Java l Python l PHP l
           TypeScript
         </p>

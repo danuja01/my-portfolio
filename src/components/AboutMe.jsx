@@ -27,12 +27,12 @@ const AboutMe = () => {
           <div className='inline-flex animate-blink'>.</div>
         </h1>
         <h2 className='text-center text-[12px] px-6 sm:p-0  sm:text-left sm:text-[14px] sm:pr-8 md:text-[12px] lg:text-[19px]  xl:text-[22px] font-bold text-blue-ac1 dark:text-muted mt-3 md:mt-0'>
-          A dedicated learner who is focused on providing an outstanding service
-          to the finest quality. Always try to complete tasks assigned to the
-          utmost level and therefore is motivated to reach perfection. Is a
-          responsible individual who is driven to give a hundred percent not
-          only when it comes to professional duties, but also day to day
-          activities.
+          As a dedicated learner, I am committed to providing exceptional
+          service and delivering high-quality work. I am highly motivated to
+          achieve perfection in all tasks assigned to me and consistently strive
+          to exceed expectations. I am a responsible and reliable individual who
+          consistently demonstrates a strong work ethic and gives 100% effort in
+          both my professional and personal endeavors.
         </h2>
         <button
           onClick={() => downloadCV()}
