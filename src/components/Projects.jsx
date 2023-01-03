@@ -8,9 +8,9 @@ const Projects = () => {
       className='select-none overflow-y-hidden snap-start md:h-screen md:w-screen py-14    bg-sectionLight dark:bg-sectionDark'
     >
       <div className='text-center md:leading-snug mb-10 md:mb-0'>
-        <h1 className='text-[24px] md:text-[69.46px]  font-bold text-blue-ac2 dark:text-muted'>
+        <h2 className='text-[24px] md:text-[69.46px]  font-bold text-blue-ac2 dark:text-muted'>
           I developed these!
-        </h1>
+        </h2>
         <p className='text-[#6e6a836d] dark:text-[#4986f9] dark:opacity-50 text-[10px] md:text-[16.5px] '>
           React.js l Node.js l Express l Angular l Java l Python l PHP l
           TypeScript

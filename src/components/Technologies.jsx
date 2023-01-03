@@ -10,9 +10,9 @@ const Technologies = () => {
       <div className='absolute z-[-1] left-16 top-0 md:left-80 md:top-0 md:dark:animate-pulse'>
         <Gradient2 />
       </div>
-      <h1 className='text-blue-ac2 text-center md:text-left  leading-tight dark:text-muted font-bold md:text-[50px] lg:text-[63px] xl:text-[69.46px] text-[22px]'>
+      <h2 className='text-blue-ac2 text-center md:text-left  leading-tight dark:text-muted font-bold md:text-[50px] lg:text-[63px] xl:text-[69.46px] text-[22px]'>
         Languages and Tools <span className='block'>I’m Familiar with.</span>
-      </h1>
+      </h2>
       {/* DESKTOP  */}
       <div className=' md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-7 2xl:grid-cols-8 mt-8 lg:gap-5 md:gap-1 md:grid hidden'>
         {Tech.map((tech, index) => (
@@ -25,7 +25,7 @@ const Technologies = () => {
               className={` mx-auto h-20  ${
                 tech.rounded ? 'rounded-[10px]' : ''
               }`}
-              alt=''
+              alt={tech.name}
             />
           </div>
         ))}
@@ -53,7 +53,7 @@ const Technologies = () => {
                 className={` mx-auto h-12 ${
                   tech.rounded ? 'rounded-[10px]' : ''
                 }`}
-                alt=''
+                alt={tech.name}
               />
             </div>
           ))}
@@ -70,7 +70,7 @@ const Technologies = () => {
                 className={` mx-auto h-12 ${
                   tech.rounded ? 'rounded-[10px]' : ''
                 }`}
-                alt=''
+                alt={tech.name}
               />
             </div>
           ))}

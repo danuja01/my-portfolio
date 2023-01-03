@@ -2,7 +2,11 @@ const Card = ({ works }) => {
   return (
     <div className='bg-blue-ac2 relative rounded-[3px] inline-block mx-4 snap-center center-div mb-4 w-[20rem] h-[28rem] p-5 dark:bg-muted'>
       <div className='w-[17.5rem] h-[11rem] mb-3 shadow-md'>
-        <img src={works.image} className='  object-center rounded-sm ' alt='' />
+        <img
+          src={works.image}
+          className='  object-center rounded-sm '
+          alt={`A thumbnail of the "${works.title}" project`}
+        />
       </div>
 
       <div id='tags'>
@@ -17,9 +21,9 @@ const Card = ({ works }) => {
       </div>
 
       <div className='mt-4'>
-        <h1 className='text-white text-[16.5px] font-bold h-10 mb-2 dark:text-blue-ac1'>
+        <h3 className='text-white text-[16.5px] font-bold h-10 mb-2 dark:text-blue-ac1'>
           {works.title}
-        </h1>
+        </h3>
         <p className='text-white text-[12.38px] dark:text-blue-ac1'>
           {works.desc.substring(0, 200) + '...'}
         </p>

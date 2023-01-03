@@ -1,38 +1,52 @@
 [
   {
+    "name": "React.Js",
     "link": "assets/logos/React-icon.svg.png"
   },
   {
+    "name": "Angular.Js",
     "link": "assets/logos/angular-icon-1-logo-png-transparent.png"
   },
-  { "link": "assets/logos/node.png", "dSize": "83.05px", "mSize": "44.89px" },
   {
+    "name": "Node.Js",
+    "link": "assets/logos/node.png"
+  },
+  {
+    "name": "JavaScript",
     "link": "assets/logos/JavaScript-logo.png",
     "rounded": true
   },
   {
+    "name": "TypeScript",
     "link": "assets/logos/Typescript_logo_2020.svg.png",
     "rounded": true
   },
   {
+    "name": "Python",
     "link": "assets/logos/python3.png"
   },
   {
+    "name": "Java",
     "link": "assets/logos/java.png"
   },
   {
+    "name": "SQL",
     "link": "assets/logos/unnamed.png"
   },
   {
+    "name": "firebase",
     "link": "assets/logos/firebase.png"
   },
   {
+    "name": "MongoDB",
     "link": "assets/logos/mongo.png"
   },
   {
+    "name": "Figma",
     "link": "assets/logos/figma-1-logo-png-transparent.png"
   },
   {
+    "name": "GIT",
     "link": "assets/logos/Git-Icon-1788C.png"
   }
 ]

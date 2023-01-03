@@ -2,18 +2,22 @@ import Gradient2 from './Gradient2';
 const Contact = () => {
   const contacts = [
     {
+      name: 'linkedin',
       href: 'https://www.linkedin.com/in/danuja-jayasuriya-11483b211',
       img: 'assets/contacts/in.png',
     },
     {
+      name: 'github',
       href: 'https://github.com/danuja01',
       img: 'assets/contacts/github.png',
     },
     {
+      name: 'stackoverflow',
       href: 'https://stackoverflow.com/users/15913029/danuja',
       img: 'assets/contacts/stackover.png',
     },
     {
+      name: 'twitter',
       href: 'https://twitter.com/DanujaJayasuri3',
       img: 'assets/contacts/twitter.png',
     },
@@ -29,7 +33,7 @@ const Contact = () => {
       </div>
       <div className='grid grid-rows-3   h-full '>
         <div className='font-bold md:text-[69.46px] text-[22px] flex items-center my-10 md:mt-10 mx-auto text-blue-ac2 dark:text-muted'>
-          <h1>CONNECT WITH ME</h1>
+          <h2>CONNECT WITH ME</h2>
         </div>
         <div className='flex items-center mx-auto '>
           {contacts.map((contact, index) => (
@@ -41,7 +45,7 @@ const Contact = () => {
               <img
                 src={contact.img}
                 className='w-[2.3rem] md:w-[5.5rem] p-1 md:p-3'
-                alt=''
+                alt={contact.name}
               />
             </a>
           ))}
