@@ -25,7 +25,7 @@ h1 {
 
 .text-bg:before,
 .text-bg:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 2rem;
   left: 0;
@@ -58,7 +58,7 @@ h1 {
 }
 .dot-flashing::before,
 .dot-flashing::after {
-  content: '';
+  content: "";
   display: inline-block;
   position: absolute;
   top: 0;
@@ -97,7 +97,7 @@ h1 {
 @media (max-width: 767px) {
   .text-bg:before,
   .text-bg:after {
-    content: '';
+    content: "";
     position: absolute;
     top: 1rem;
     left: 0;
@@ -121,7 +121,7 @@ h1 {
   }
   .dot-flashing::before,
   .dot-flashing::after {
-    content: '';
+    content: "";
     display: inline-block;
     position: absolute;
     top: 0;
@@ -181,4 +181,57 @@ h1 {
 .horizontal-scroll::-webkit-scrollbar-thumb {
   @apply bg-muted;
   @apply dark:bg-blue-ac1;
+}
+
+/* PUBLIC ARCHIVED BANNER */
+.banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.1rem 0;
+  background-color: #e4b700;
+  animation: animateBanner 1s ease-in-out;
+}
+
+.banner p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #090e34;
+}
+
+.banner > div {
+  display: flex;
+  align-items: center;
+}
+
+@keyframes animateBanner {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* ANIMATE BANNER TEXT MARQUEE MOBILE */
+
+@media screen and (max-width: 767px) {
+  .banner div {
+    animation: animateBannerText 10s linear infinite;
+  }
+
+  .banner div > p {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  @keyframes animateBannerText {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
 }
