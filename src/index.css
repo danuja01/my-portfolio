@@ -186,6 +186,7 @@ h1 {
 /* PUBLIC ARCHIVED BANNER */
 .banner {
   position: relative;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -231,7 +232,7 @@ h1 {
       transform: translateX(100%);
     }
     100% {
-      transform: translateX(-100%);
+      transform: translateX(0%);
     }
   }
 }
