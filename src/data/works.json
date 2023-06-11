@@ -3,7 +3,7 @@
     "title": "Ceylon Voyages - Sri Lanka Tourism Application",
     "desc": "Discover Sri Lanka's beauty with our tourism app. Book tours, read blogs, and share your experiences to promote the best of Sri Lanka. #VisitSriLanka.",
     "image": "assets/project-thumbnails/ceylonVoyages.gif",
-    "link": "https://af-project-2xr36wtpm-danuja01.vercel.app/tours",
+    "link": "hhttps://af-project-beta.vercel.app/tours",
     "tags": ["React.js", "Node.js", "Express", "TailwindCSS"],
     "deployed": true
   },
