@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import Gradient2 from "./Gradient2";
+import LinkedInProfileBadge from "react-linkedin-profile-badge";
+
 const Contact = () => {
   useEffect(() => {
     const script = document.createElement("script");
@@ -46,15 +48,12 @@ const Contact = () => {
           <h2>CONNECT WITH ME</h2>
         </div>
         <div className="flex items-center justify-center">
-          <div
-            class="badge-base LI-profile-badge"
-            data-locale="en_US"
-            data-size="large"
-            data-theme="dark"
-            data-type="HORIZONTAL"
-            data-vanity="danuja-jayasuriya"
-            data-version="v1"
-          ></div>
+          <LinkedInProfileBadge
+            profileId="danuja-jayasuriya"
+            theme="dark"
+            size="large"
+            orientation="horizontal"
+          />
         </div>
 
         <div className="flex items-center justify-center ">
