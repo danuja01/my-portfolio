@@ -1,11 +1,21 @@
+import { useEffect } from "react";
 import Gradient2 from "./Gradient2";
 const Contact = () => {
+  useEffect(() => {
+    const script = document.createElement("script");
+
+    script.src = "https://platform.linkedin.com/badges/js/profile.js";
+    script.async = true;
+    script.defer = true;
+
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   const contacts = [
-    {
-      name: "linkedin",
-      href: "https://www.linkedin.com/in/danuja-jayasuriya-11483b211",
-      img: "assets/contacts/in.png",
-    },
     {
       name: "github",
       href: "https://github.com/danuja01",
@@ -35,7 +45,19 @@ const Contact = () => {
         <div className="font-bold md:text-[69.46px] text-[22px] flex items-center my-10 md:mt-10 mx-auto text-blue-ac2 dark:text-muted">
           <h2>CONNECT WITH ME</h2>
         </div>
-        <div className="flex items-center mx-auto ">
+        <div className="flex items-center justify-center">
+          <div
+            class="badge-base LI-profile-badge"
+            data-locale="en_US"
+            data-size="large"
+            data-theme="dark"
+            data-type="HORIZONTAL"
+            data-vanity="danuja-jayasuriya"
+            data-version="v1"
+          ></div>
+        </div>
+
+        <div className="flex items-center justify-center ">
           {contacts.map((contact, index) => (
             <a
               key={index}
@@ -50,7 +72,7 @@ const Contact = () => {
             </a>
           ))}
         </div>
-        <div className="mx-auto items-center md:mt-8 flex h-full p-4 ">
+        <div className="mx-auto items-center  flex h-full p-4 ">
           <p className="text-[8px] md:text-xs text-blue-ac2 dark:text-muted">
             Design & Developed by Danuja Jayasuriya | 2022
           </p>
