@@ -3,9 +3,9 @@
     "title": "Ceylon Voyages - Sri Lanka Tourism Application",
     "desc": "Discover Sri Lanka's beauty with our tourism app. Book tours, read blogs, and share your experiences to promote the best of Sri Lanka. #VisitSriLanka.",
     "image": "assets/project-thumbnails/ceylonVoyages.gif",
-    "link": "hhttps://af-project-beta.vercel.app/tours",
+    "link": "https://github.com/danuja01/CeylonVoyages",
     "tags": ["React.js", "Node.js", "Express", "TailwindCSS"],
-    "deployed": true
+    "deployed": false
   },
   {
     "title": "wellnessroots core - Microservices",
@@ -14,14 +14,6 @@
     "link": "https://github.com/danuja01/wellnessroots-core",
     "tags": ["Node.js", "Express", "Turbo.js", "MongoDB"],
     "deployed": false
-  },
-  {
-    "title": "SLIIT Mozila Club Website",
-    "desc": "I was privileged with the opportunity to build the website for SLIIT Mozilla Club. The website provides the function to dynamically update blogs and events which are written and organized by the club members. It also has the function of adding new members to the club.",
-    "image": "assets/project-thumbnails/Mozilla.png",
-    "link": "https://web-production-faf3f.up.railway.app/",
-    "tags": ["Node.js", "Express", "EJS", "Bootstrap"],
-    "deployed": true
   },
   {
     "title": "Enterprise Resource Planning System",
@@ -51,9 +43,9 @@
     "title": "MovieScope-Movie Search Engine",
     "desc": "website lets users search for movies and access information such as cast, plot, and trailer. We use a movie API to provide accurate and up-to-date data. Our website is a convenient and easy-to-use resource for movie enthusiasts and casual viewers alike.",
     "image": "assets/project-thumbnails/Movie-Scope.gif",
-    "link": "https://web-production-2f7a.up.railway.app/",
+    "link": "https://github.com/danuja01/Movie-Scope",
     "tags": ["Node.js", "Express", "EJS", "Bootstrap"],
-    "deployed": true
+    "deployed": false
   },
   {
     "title": "Railway Reservation System",
