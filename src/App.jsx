@@ -4,7 +4,7 @@ import LandingPage from "./pages/LandingPage";
 function App() {
   return (
     <div className="App">
-      {/* <Banner message="Site Publicly Archived - Watch out for the refreshed portfolio soon!" /> */}
+      <Banner />
       <LandingPage />
     </div>
   );

@@ -20,7 +20,7 @@ const Header = () => {
             </span>
           </h1>
           <h2 className="text-[12.38px] leading-[38.73px] md:leading-[93.06px] animate-pulse text-center md:text-left text-muted md:text-[45px] lg:text-[52.11px] font-bold dark:text-blue-ac1">
-            Undergraduate / Full Stack Dev.
+            Software Engineer / Full Stack Dev.
           </h2>
         </div>
       </section>
