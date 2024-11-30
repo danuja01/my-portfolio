@@ -5,7 +5,7 @@ const Banner = () => {
   const [isMobileView, setIsMobileView] = useState(false);
 
   const message = (
-    <span>
+    <span className="mr-10">
       🚨 Some content here might be outdated. For the latest information,
       <span className="font-semibold text-blue-600"> contact me at </span>
       <a
@@ -33,17 +33,44 @@ const Banner = () => {
     return () => window.removeEventListener("resize", checkScreenWidth);
   }, []);
 
+  // Inline CSS object for styling
+  const styles = {
+    bannerContainer: {
+      display: "flex",
+      justifyContent: "center",
+      width: "100%",
+      overflow: "hidden",
+      position: "relative",
+    },
+    messageWrapper: {
+      display: "flex",
+      gap: "1rem", // Adds space between content
+    },
+    mobileMarquee: {
+      display: "flex",
+      animation: "scrollingMessage 35s linear infinite", // Unique animation name
+      whiteSpace: "nowrap",
+    },
+    mobileMessage: {
+      display: "inline-flex",
+      gap: "2rem", // To give space between repeated content
+    },
+    desktopMessage: {
+      whiteSpace: "nowrap",
+      fontSize: "1rem",
+    },
+  };
+
   return (
     <div className="banner">
-      <div className="flex items-center justify-center w-full">
+      <div style={styles.bannerContainer}>
         {isMobileView ? (
-          <marquee className="text-sm md:text-base font-medium text-[#090e34]">
-            {message}
-          </marquee>
-        ) : (
-          <div className="text-sm md:text-base font-medium text-[#090e34] whitespace-nowrap">
-            {message}
+          <div style={styles.mobileMarquee}>
+            <div style={styles.mobileMessage}>{message}</div>
+            <div style={styles.mobileMessage}>{message}</div>
           </div>
+        ) : (
+          <div style={styles.desktopMessage}>{message}</div>
         )}
       </div>
     </div>
