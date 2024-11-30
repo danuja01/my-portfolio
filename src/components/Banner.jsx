@@ -36,7 +36,6 @@ const Banner = () => {
   return (
     <div className="banner">
       <div className="flex items-center justify-center w-full">
-        <TiWarningOutline className="mr-2 text-xl text-yellow-900" />
         {isMobileView ? (
           <marquee className="text-sm md:text-base font-medium text-[#090e34]">
             {message}
