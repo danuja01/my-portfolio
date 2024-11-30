@@ -201,13 +201,13 @@ h1 {
 
 @keyframes scrollingMessage {
   0% {
-    transform: translateX(100%);
+    transform: translateX(50%); /* Start from the middle */
   }
   50% {
-    transform: translateX(0);
+    transform: translateX(0); /* Center the content */
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-50%); /* Move content out of view */
   }
 }
 
